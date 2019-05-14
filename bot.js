@@ -39,6 +39,9 @@ bot.on('message', message=>{
                 message.channel.sendMessage('mmm..');
                 return;
             }
+        case 'mina':
+            message.channel.sendMessage('🐧🐧🐧')
+            break;
 
     }
 })
