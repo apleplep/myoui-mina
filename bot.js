@@ -11,5 +11,6 @@ bot.on('message', msg=>{
     if(msg.content ===  "Hai"){
         msg.reply('annyeong..');
     }
+})
 
 bot.login(config.token);
