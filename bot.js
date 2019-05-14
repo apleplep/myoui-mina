@@ -7,4 +7,9 @@ bot.on("ready", async () => {
     bot.user.setActivity("You", {type: "WATCHING"});
 });
 
+bot.on('message', msg=>{
+    if(msg.content ===  "Hai"){
+        msg.reply('annyeong..');
+    }
+
 bot.login(config.token);
